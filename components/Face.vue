@@ -6,16 +6,23 @@
       <h1 class="face__title">
         Hey, Ryam here
       </h1>
-      <p>
-        Being weird
-      </p>
+      <div>
+        <div class="face__location">
+          <LocationIcon class="face__location-icon" />
+          <span>
+            Kazan, Russia
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-
+  name: 'Face',
+  components: {
+  }
 }
 </script>
 
@@ -32,5 +39,12 @@ export default {
     font-size: 100px
     color: $c-text
     letter-spacing: 1px
+
+  &__location
+    display: flex
+    align-items: center
+    justify-content: center
+    &-icon
+      height: 2rem
 
 </style>

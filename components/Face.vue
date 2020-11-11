@@ -13,6 +13,10 @@
             Kazan, Russia
           </span>
         </div>
+
+        <p class="face__description">
+          I am okkkkkkkkkkay
+        </p>
       </div>
     </div>
   </div>
@@ -36,7 +40,7 @@ export default {
     font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
     display: block
     font-weight: 300
-    font-size: 100px
+    font-size: 7rem
     color: $c-text
     letter-spacing: 1px
 
@@ -46,5 +50,8 @@ export default {
     justify-content: center
     &-icon
       height: 2rem
+
+  &__description
+    font-size: 1.7rem
 
 </style>

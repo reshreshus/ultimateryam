@@ -11,7 +11,7 @@ import Face from 'components/Face.vue'
 export default Vue.extend({})
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 @import '~/assets/style/all'
 
 .container
@@ -22,14 +22,6 @@ export default Vue.extend({})
   justify-content: center
   align-items: center
   text-align: center
-
-.title
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
-  display: block
-  font-weight: 300
-  font-size: 100px
-  color: #35495e
-  letter-spacing: 1px
 
 .subtitle
   font-weight: 300

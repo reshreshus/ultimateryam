@@ -28,6 +28,7 @@ export default {
   name: 'Face',
   components: {
   }
+
 }
 </script>
 

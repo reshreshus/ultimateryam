@@ -1,12 +1,14 @@
 <template>
   <div class="container">
     <face />
+    <projects />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Face from 'components/Face.vue'
+import Projects from 'components/Projects.vue'
 
 export default Vue.extend({})
 </script>
@@ -19,6 +21,7 @@ export default Vue.extend({})
   margin: 0 auto
   min-height: 100vh
   display: flex
+  flex-direction: column
   justify-content: center
   align-items: center
   text-align: center

@@ -15,7 +15,7 @@
         </div>
 
         <p class="face__description">
-          I work and </br>
+          I work and <br />
           I am okkkkkkkkkkay
         </p>
       </div>

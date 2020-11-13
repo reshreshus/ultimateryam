@@ -1,12 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: 'ultimate ryam',
-      port: 3333,
+      name: 'UltimateRyam',
       exec_mode: 'cluster',
       instances: 'max', // Or a number of instances
       script: './node_modules/nuxt/bin/nuxt.js',
-      args: 'start'
+      args: 'start --port 3333'
     }
   ]
 }

@@ -44,6 +44,8 @@ export default Vue.extend({
     border-bottom: 1px solid $c-bg-main
     padding: .5rem
     text-align: left
+    font-size: 2rem
+    color: #160C28
   &__body
     padding: .5rem
     display: flex

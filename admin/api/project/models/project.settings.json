@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "technologies": {
+      "type": "json"
+    }
+  }
+}

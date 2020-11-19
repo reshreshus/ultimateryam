@@ -31,7 +31,9 @@ export default Vue.extend({
               title: "Fekrtna",
               img: "https://vignette.wikia.nocookie.net/naruto/images/2/28/Rasengan.png/revision/latest/scale-to-width-down/700?cb=20150702135410",
               description: "Nisi mollit irure exercitation Lorem laborum mollit duis adipisicing occaecat. Nisi tempor nisi aliquip cupidatat aliquip labore anim veniam Lorem ipsum velit. Laborum Lorem laborum excepteur minim dolor non Lorem. Eiusmod sit aliquip velit occaecat excepteur nostrud culpa labore nisi nisi. Elit velit fugiat reprehenderit pariatur est consequat pariatur ex ipsum in non veniam non eiusmod.",
-              technologies: ['Nuxt', 'Sass', 'Bulma', 'Buefy']
+              technologies: {
+                data: ['Nuxt', 'Sass', 'Bulma', 'Buefy']
+              }
             }
           ]
         }

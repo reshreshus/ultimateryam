@@ -8,7 +8,7 @@
         <div class="project__text"> {{ project.description }}</div>
         <div class="project__technologies">
           <!-- <ul> -->
-            <div v-for="tech of project.technologies" :key="tech" class="project__technology">
+            <div v-for="tech of project.technologies.data" :key="tech" class="project__technology">
               #{{ tech }}
             </div>
           <!-- </ul> -->

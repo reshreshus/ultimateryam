@@ -4,7 +4,7 @@
     <div>
       <!-- <Logo /> -->
       <h1 class="face__title">
-        Hey, Ryam here
+        Hey, <span class="face__ryam"> Ryam </span> here
       </h1>
       <div>
         <div class="face__location">
@@ -39,12 +39,15 @@ export default {
   &__img
     height: 20rem
   &__title
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
     display: block
     font-weight: 300
     font-size: 7rem
     color: $c-text
     letter-spacing: 1px
+    // -webkit-text-stroke: 1px white
+
+  &__ryam
+    font-style: italic
 
   &__location
     display: flex

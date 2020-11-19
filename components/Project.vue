@@ -51,12 +51,14 @@ export default Vue.extend({
     display: flex
     min-height: 5rem
   &__img
-    // width: 17rem
-    flex: 1 1 5rem
+    min-width: 17rem
+    flex: 0 2 5rem
     object-fit: cover
     min-height: 5rem
+    @include mobile
+      min-width: 10rem
   &__desc
-    flex: 2
+    flex: 1 2 5rem
     min-height: 5rem
   &__text
     margin-left: 1rem

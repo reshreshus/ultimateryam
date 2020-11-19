@@ -19,6 +19,7 @@ export default Vue.extend({})
 .container
   background: $c-bg-main
   margin: 0 auto
+  padding: 1rem
   min-height: 100vh
   display: flex
   flex-direction: column

@@ -37,6 +37,10 @@ export default Vue.extend({
 
 .projects
   max-width: 60%
+  @include tablet
+    min-width: 90%
+  @include mobile
+    min-width: 95%
   &__title
     font-size: 4rem
     // color: $c-yellow-green-crayola

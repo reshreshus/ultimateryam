@@ -39,5 +39,7 @@ export default Vue.extend({
   max-width: 60%
   &__title
     font-size: 4rem
+    color: white
+    -webkit-text-stroke: 1px black
 
 </style>

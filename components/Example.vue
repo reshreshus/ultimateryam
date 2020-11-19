@@ -11,5 +11,7 @@ export default Vue.extend({
 </script>
 
 <style lang="sass">
+@import '~/assets/style/all'
+
 
 </style>

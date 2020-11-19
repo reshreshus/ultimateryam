@@ -41,6 +41,9 @@ export default Vue.extend({
     min-width: 90%
   @include mobile
     min-width: 95%
+  @include twok
+    min-width: 40%
+
   &__title
     font-size: 4rem
     // color: $c-yellow-green-crayola
